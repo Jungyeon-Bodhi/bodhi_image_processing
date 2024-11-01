@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Oct 31 16:35:48 2024
+Created on Thu Oct 31 16:52:48 2024
 
 @author: Bodhi Global Analysis
 """
@@ -17,7 +17,7 @@ class Question:
 
         number: int, Number of the question
         page_number: int, Number of the pdf page
-        type_q: str, Type of the question ('single','multi','open-ended')
+        type_q: str, Type of the question ('single','multi','open-ended') 
         question_set: dic, Dictionary that contains the coordinates of each checkbox and the corresponding answers
         """
         self.number = number
